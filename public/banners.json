@@ -1,0 +1,31 @@
+[
+    {
+      "title": "Summer Sale",
+      "description": "Up to 50% off on all items!",
+      "cta": "Shop Now",
+      "image": "/images/summer-sale.jpg",
+      "background": "linear-gradient(to right, #ff7e5f, #feb47b)"
+    },
+    {
+      "title": "Winter Collection",
+      "description": "Discover our new winter collection.",
+      "cta": "Explore Now",
+      "image": "/images/winter-collection.jpg",
+      "background": "linear-gradient(to right, #00c6ff, #0072ff)"
+    },
+    {
+      "title": "Spring Essentials",
+      "description": "Fresh and vibrant spring collection.",
+      "cta": "Browse Collection",
+      "image": "/images/spring-essentials.jpg",
+      "background": "linear-gradient(to right, #fbc2eb, #a6c0fe)"
+    },
+    {
+      "title": "Autumn Deals",
+      "description": "Catch the best deals this autumn.",
+      "cta": "View Deals",
+      "image": "/images/autumn-deals.jpg",
+      "background": "linear-gradient(to right, #f093fb, #f5576c)"
+    }
+  ]
+  

@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: skyblue; /* Background color of the website */
+  }
+  
+  .bannerCard {
+    background: #ff7e5f; /* Default background; can be overridden by inline styles */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    position: relative;
+    color: #fff;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 600px) {
+    .bannerCard {
+      flex: 1 1 calc(50% - 40px); /* Two cards per row */
+    }
+  }
+  
+  @media (max-width: 599px) {
+    .bannerCard {
+      flex: 1 1 calc(100% - 20px); /* One card per row */
+    }
+  }
+  
